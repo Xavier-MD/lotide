@@ -22,3 +22,5 @@ assertEqual(findKey({
   "Ora":       { stars: 2 },
   "Akelarre":  { stars: 3 }
 }, x => x.stars === 2), 'noma');
+
+assertEqual(findKey({}, x => x.stars === 2), undefined);
