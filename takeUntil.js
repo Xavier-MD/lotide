@@ -48,3 +48,5 @@ const assertArraysEqual = function(actual, expected) {
 };
 
 assertArraysEqual(takeUntil([1, 2, 3, 4, 5, 6, 7], x => x > 4), [1, 2, 3, 4]);
+
+module.exports = takeUntil;

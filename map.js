@@ -40,3 +40,5 @@ const assertArraysEqual = function(actual, expected) {
 assertArraysEqual(map(['Hello', 'hi', 'Bonjour'], thing => thing[0]), ['H', 'h', 'B']);
 assertArraysEqual(map(['Hello', 'hi', 'Bonjour'], thing => thing[1]), ['e', 'i', 'o']);
 assertArraysEqual(map(['Hello', 'hi', 'Bonjour'], thing => thing.length), [5, 2, 7]);
+
+module.exports = map;
