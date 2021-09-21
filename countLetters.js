@@ -6,7 +6,7 @@ const assertEqual = function(actual, expected) {
     console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
   }
 };
-//We were told to put this here but we never used it.
+//We were told to put assertEqual here but we never used it.
 
 const countLetters = function(letters) {
   let counted = {};
